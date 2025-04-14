@@ -3,7 +3,7 @@ import cv2
 import imutils
 from pyzbar.pyzbar import decode
 
-print("I am Atrij")
+
 
 def BarcodeReader(image_path):
     # Load the image
