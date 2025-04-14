@@ -4,8 +4,10 @@ import imutils
 from pyzbar.pyzbar import decode
 
 print("I am Atrij")
+print("I am Uday")
 
-def BarcodeReader(image_path):
+
+def barcodeReader(Image_path):
     # Load the image
     img = cv2.imread(image_path)
     
